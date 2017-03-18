@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <title>jQuery UI</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="jquery-ui-1.11.4/jquery-ui.css" rel="stylesheet">
+    <script src="jquery-ui-1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <style>
+          #draggable { 
+          width: 150px;
+          height: 150px;
+          padding: 0.5em;
+          color: blue;
+          }
+          
+    </style>
+   
+</head>
+
+<body>
+
+    <script>
+      $(function() {
+        $( "#draggable" ).draggable();
+        });
+        
+    </script>
+
+
+    <div id="draggable" class="ui-widget-content">
+        <p>Drag this shit hommie</p>
+    </div>
+   
+    
+    
+
+</body>
+</html>
